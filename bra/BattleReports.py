@@ -1,2 +1,2 @@
-def p():
-    print("123")
+class BattleReports:
+    pass

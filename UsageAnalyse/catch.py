@@ -10,7 +10,7 @@ def get_date(url: str):
         i = len(str('https://www.smogon.com/stats/'))
         _url = url[i:]
         j = (_url).find('/')
-        return _url[:j]
+        return _url[:j] 
 
 
 def get_mode(url: str):
